@@ -26,6 +26,8 @@ body {
 }
 ol, ul,li {
     list-style: none;
+    padding: 0px;
+    margin: 0px;
 }
 a{
     text-decoration: none;
@@ -147,16 +149,128 @@ https://en.bem.info/methodology/quick-start/*/
 
 /*Sección About*/
 
-section.about{
-
+.about{
+display: flex;
+flex-direction: row;
 }
-
+.about__container{
+    display: flex;
+    flex-direction: column;
+    margin: 64px 152px;
+}
+.about__title{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+    margin: 0px;
+}
+.about__paragraph{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    margin: 16px 0px 0px 0px;
+}
+.about__container img{
+    width: 140px;
+    height: 52px;
+    margin: 16px 0px 0px 0px;
+}
+/*Section skills*/
+.skills{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px 152px;
+    margin-bottom: 56px;
+}
+.skills__title{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+}
+.skills__line{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.skills__box{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    gap: 8px;
+    width: 176px;
+    height: 174px;
+    background: #FFFFFF;
+}
+.skills__box ul{
+    padding: 16px;
+}
+.skills__img{
+    width: 28px;
+    height: 37px;
+}
+.skills__name{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    margin-top: 8px;
+}
 /*Sección Hobbies*/
-
-section.hobbies{
-    
+.hobbies{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px 152px;
+    margin-bottom: 56px;
 }
-
+.hobbies__title{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+}
+.hobbies__line{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.hobbies__box{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    gap: 8px;
+    width: 176px;
+    height: 174px;
+    background: #FFFFFF;
+}
+.hobbies__box ul{
+    padding: 16px;
+}
+.hobbies__img{
+    width: 28px;
+    height: 37px;
+}
+.hobbies__name{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    margin-top: 8px;
+}
 /* Experiencia Académica*/
 
 section.academic{
