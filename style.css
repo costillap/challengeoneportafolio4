@@ -273,26 +273,239 @@ flex-direction: row;
 }
 /* Experiencia Académica*/
 
-section.academic{
-
+.academic{
+   display: flex;
+   flex-direction: column;
+   align-items: center; 
+   margin: 50px 152px 82px 152px;
 }
-
+.academic__title{
+    margin: 32px;
+}
+.academic__courses{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;    
+}
+.academic__courses__box{
+    display: flex;
+    flex-direction: column;
+    width: 368px;
+    
+}
+.academic__courses__item__img{
+    width: 368px;
+    height: 286px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background: #FFFFFF;
+}  
+.academic__courses__item__img img{
+    width: 192px;
+    height: 130px;
+}
+.academic__courses__item__title{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+    margin-top: 8px;
+}
+.academic__courses__item__title h4{
+    padding: 0px;
+    margin: 0px;
+}
+.academic__courses__item__subtitle{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    margin-top: 8px;
+}
+.academic__courses__item__subtitle p{
+    padding: 0px;
+    margin: 0px;
+}
 /* experiencia*/
-
-section.experience{
-
+.experience{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0px 152px;
 }
-
+.experience__box{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    margin-bottom: 64px;
+    width: 100%;
+}
+.experience__section__title{
+    margin: 32px 0px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+}
+.experience__info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    margin: 0px 16px;
+}
+.experience__title{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+    margin: 8px;
+}
+.experience__text{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    margin: 8px;
+}
+.experience__description{
+    margin: 8px;
+}
+.experience__repo{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+}
+.experience__demo{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+}
 /*Contacto*/
 
-section.formcontato{
-
+.formcontacto{
+    display: flex;
+    
 }
-
+.formcontacto__contacto{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: 0px 152px;
+}
+.formcontacto--esquerda{
+    width: 464px;
+    height: 593px;
+}
+.formcontacto__text{
+    margin-left: 16px;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+.formcontacto__title{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+    margin: 0px 0px 8px 0px;
+}
+.formcontacto__subtext{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    margin: 0px;
+}
+.formcontacto__form{
+    display: flex;
+    flex-direction: column;
+    
+}
+.formcontacto__input{
+    height: 30px;
+    background: #FFFFFF;
+    border-radius: 4px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    border: none;
+    border: 1px solid gray;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    resize: none;
+    border-radius: 0px 0px 4px 4px;
+    
+}
+.formcontacto__label{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    margin-top: 32px;
+    padding: 8px 12px 0px 12px;
+    background: #FFFFFF;
+    border-radius: 4px 4px 0px 0px;
+}
+.formcontacto__textarea{
+    border: 1px solid gray;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    resize: none;
+    border-radius: 0px 0px 4px 4px;
+    height: 94px;
+    
+}
+.formcontacto__boton{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    margin-top: 32px;
+    padding: 16px;
+    width: fit-content;
+}
 /*footeer*/
 
-section.footer{
-   
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.footer__rodape{
+    text-align: center;
+    margin: 32px 0px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+}
+.footer__rodape p{
+    margin: 0px;
 }
 
 /* Vamos a desafiarnos trabajando con responsividad?
