@@ -1,0 +1,35 @@
+/*Sección About*/
+.about {
+    display: flex;
+    flex-direction: row;
+}
+
+.about__container {
+    display: flex;
+    flex-direction: column;
+    margin: 64px 152px;
+}
+
+.about__title {
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+    margin: 0px;
+}
+
+.about__paragraph {
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    margin: 16px 0px 0px 0px;
+}
+
+.about__container img {
+    width: 140px;
+    height: 52px;
+    margin: 16px 0px 0px 0px;
+}

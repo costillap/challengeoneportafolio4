@@ -1,0 +1,88 @@
+/*Contacto*/
+
+.formcontacto {
+    display: flex;
+}
+.formcontacto__contacto {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: 0px 152px;
+}
+.formcontacto--esquerda {
+    width: 464px;
+    height: 593px;
+}
+.formcontacto__text {
+    margin-left: 16px;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+.formcontacto__title {
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+    margin: 0px 0px 8px 0px;
+}
+.formcontacto__subtext {
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    margin: 0px;
+}
+.formcontacto__form {
+    display: flex;
+    flex-direction: column;
+}
+.formcontacto__input {
+    height: 30px;
+    background: #ffffff;
+    border-radius: 4px;
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    border: none;
+    border: 1px solid gray;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    resize: none;
+    border-radius: 0px 0px 4px 4px;
+}
+.formcontacto__label {
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    margin-top: 32px;
+    padding: 8px 12px 0px 12px;
+    background: #ffffff;
+    border-radius: 4px 4px 0px 0px;
+}
+.formcontacto__textarea {
+    border: 1px solid gray;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    resize: none;
+    border-radius: 0px 0px 4px 4px;
+    height: 94px;
+}
+.formcontacto__boton {
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    margin-top: 32px;
+    padding: 16px;
+    width: fit-content;
+}

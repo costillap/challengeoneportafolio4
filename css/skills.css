@@ -1,0 +1,46 @@
+/*Section skills*/
+.skills{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px 152px;
+    margin-bottom: 56px;
+}
+.skills__title{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+}
+.skills__line{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.skills__box{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    gap: 8px;
+    width: 176px;
+    height: 174px;
+    background: #FFFFFF;
+}
+.skills__box ul{
+    padding: 16px;
+}
+.skills__img{
+    width: 28px;
+    height: 37px;
+}
+.skills__name{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    margin-top: 8px;
+}

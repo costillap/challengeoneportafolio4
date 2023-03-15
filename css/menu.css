@@ -1,0 +1,36 @@
+/*Sección Menu*/
+.menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 34.5px 152px;
+}
+
+.menu__header {
+    display: flex;
+    flex-direction: row;
+    margin: 0px;
+}
+
+.menu__title {
+    margin: 0px;
+}
+
+.menu__list {
+    display: flex;
+    flex-direction: row;
+    margin: 0px;
+}
+
+.menu__list__item {
+    padding-left: 32px;
+}
+
+.menu__list__item__contato {
+    padding-left: 32px;
+}
+
+.menu__nav {
+    display: flex;
+    flex-direction: row;
+}
