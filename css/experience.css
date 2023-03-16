@@ -5,6 +5,7 @@
     align-items: center;
     margin: 0px 152px;
 }
+
 .experience__box {
     display: flex;
     flex-direction: row;
@@ -36,6 +37,10 @@
     font-size: 22px;
     line-height: 26px;
     margin: 8px;
+}
+.experience__img {
+    width: 704px;
+    height: 320px;
 }
 .experience__text {
     font-family: "Raleway";
