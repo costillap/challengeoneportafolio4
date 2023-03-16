@@ -5,10 +5,9 @@
     align-items: center;
     padding: 0px 152px;
     margin-bottom: 56px;
+    background-color: var(--color-fondo);
 }
 .skills__title{
-    font-family: 'Raleway';
-    font-style: normal;
     font-weight: 700;
     font-size: 32px;
     line-height: 38px;
@@ -37,8 +36,6 @@
     height: 37px;
 }
 .skills__name{
-    font-family: 'Raleway';
-    font-style: normal;
     font-weight: 700;
     font-size: 16px;
     line-height: 19px;

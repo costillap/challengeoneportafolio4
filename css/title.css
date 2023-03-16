@@ -19,8 +19,6 @@
 }
 
 .title__bio {
-    font-family: 'Raleway';
-    font-style: normal;
     font-weight: 700;
     font-size: 52px;
     line-height: 61px;
@@ -28,8 +26,6 @@
 }
 
 .title__subsection {
-    font-family: 'Raleway';
-    font-style: normal;
     font-weight: 400;
     font-size: 22px;
     line-height: 26px;
@@ -44,8 +40,6 @@
 
 .title__network__item {
     padding-right: 32.69px;
-    font-family: 'Raleway';
-    font-style: normal;
     font-weight: 500;
     font-size: 17px;
     line-height: 19px;

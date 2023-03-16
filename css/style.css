@@ -5,16 +5,25 @@ en las secciones señaladas */
 coloque nas sessões indicadas*/
 
 :root {
-    /* Inserta la variable de los otros colores inspeccionando el exemplo de figma */
-    /*Se esforce para trabalhar com variáveis, é uma dica profissional valiosa*/
-    --cor-de-fundo: #f5f5f5;
-    --cor-de-link: #000;
+    /*colores*/
+    --color-fondo: #f5f5f5;
+    --color-fondo-celeste: #EAF2FD;
+    --color-fondo-blanco: #FFFFFF;
+    --cor-de-link:#464646;
+    --color-texto: #464646;
+    --color-texto-azul: #2A7AE4 ;
+    --color-texto-blanco: #FFFFFF;
+    --color-fondo-azul: #2A7AE4;
+    /*tipografias*/
+    --fuente-1: 'Raleway';
+    --fuente-estilo-1: normal;
 }
 
 body {
     box-sizing: border-box;
-    background-color: var(--cor-de-fundo);
-    font-family: "Raleway";
+    font-family: var(--fuente-1);
+    font-style: var(--fuente-estilo-1);
+    color: var(--color-texto);
     margin: 0px;
     padding: 0px;
     line-height: 1;
@@ -31,12 +40,12 @@ li {
 }
 a {
     text-decoration: none;
-    color: var(--cor-de-link);
+    color: var(--color-texto);
 }
 .todo {
     display: flex;
     flex-direction: column;
-
+    background-color: var(--color-fondo);
     max-width: 1440px;
     margin: 0px;
     padding: 0px;
