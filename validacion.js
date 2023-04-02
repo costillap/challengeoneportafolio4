@@ -1,6 +1,8 @@
 //Haz tú validación en javascript acá
 const inputs = document.querySelectorAll("input, textarea");
 
+
+
 inputs.forEach((input) =>{
     input.addEventListener("blur", (input) =>{
         valida(input.target);
@@ -52,3 +54,17 @@ inputs.forEach((input) =>{
         document.getElementById("span__TextArea").classList.add("span--disable");
     }
  }
+
+ fc.addEventListener("submit", (e) =>{
+    e.preventDefault()
+    Swal.fire({
+        
+        icon: 'success',
+        title: 'Perfecto, tu formulario fue enviado',
+        showConfirmButton: true,
+    });
+    //solo borro los inputs, no los guardo en ningun lado por que por ahora solo vi hasta aqui que hacer con los datos
+    inputs.forEach((input)=>{
+        input.value = "";
+    })
+ })

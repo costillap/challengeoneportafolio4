@@ -5,6 +5,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <!-- Referencia de la hoja de estilo de Css -->
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
         <link rel="stylesheet" href="/css/style.css" />
         <link rel="stylesheet" href="/css/menu.css" />
         <link rel="stylesheet" href="/css/title.css" />
@@ -21,6 +22,10 @@
         <link
             href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap"
             rel="stylesheet"
+        />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
         />
         <link rel="stylesheet" href="/css/media.css" />
         <title>Mi Portafolio</title>
@@ -126,7 +131,7 @@
             <section class="skills" id="skills">
                 <h3 class="skills__title">Skills</h3>
                 <div class="skills__line">
-                    <div class="skills__box">
+                    <div class="skills__box" data-aos="fade-up" >
                         <ul>
                             <li class="skills__img">
                                 <img src="assets\htlm.png" />
@@ -135,7 +140,7 @@
                         </ul>
                     </div>
 
-                    <div class="skills__box">
+                    <div class="skills__box" data-aos="fade-up">
                         <ul>
                             <li class="skills__img">
                                 <img src="assets\js_icon.png" alt="" />
@@ -144,7 +149,7 @@
                         </ul>
                     </div>
 
-                    <div class="skills__box">
+                    <div class="skills__box" data-aos="fade-up">
                         <ul>
                             <li class="skills__img">
                                 <img src="assets\php_icon.png" alt="" />
@@ -153,7 +158,7 @@
                         </ul>
                     </div>
 
-                    <div class="skills__box">
+                    <div class="skills__box" data-aos="fade-up">
                         <ul>
                             <li class="skills__img">
                                 <img src="assets\nodejs_icon.png" alt="" />
@@ -162,7 +167,7 @@
                         </ul>
                     </div>
 
-                    <div class="skills__box">
+                    <div class="skills__box" data-aos="fade-up">
                         <ul>
                             <li class="skills__img">
                                 <img src="assets\react_icon.png" alt="" />
@@ -171,7 +176,7 @@
                         </ul>
                     </div>
 
-                    <div class="skills__box">
+                    <div class="skills__box" data-aos="fade-up">
                         <ul>
                             <li class="skills__img">
                                 <img src="assets\css_icon.png" alt="" />
@@ -186,7 +191,7 @@
             <section class="hobbies" id="hobbies">
                 <h3 class="hobbies__title">Hobbies</h3>
                 <div class="hobbies__line">
-                    <div class="hobbies__box">
+                    <div class="hobbies__box" data-aos="fade-up">
                         <ul>
                             <li class="hobbies__img">
                                 <img src="assets\skate_icon.png" />
@@ -195,7 +200,7 @@
                         </ul>
                     </div>
 
-                    <div class="hobbies__box">
+                    <div class="hobbies__box" data-aos="fade-up">
                         <ul>
                             <li class="hobbies__img">
                                 <img src="assets\guitar_icon.png" alt="" />
@@ -204,7 +209,7 @@
                         </ul>
                     </div>
 
-                    <div class="hobbies__box">
+                    <div class="hobbies__box" data-aos="fade-up">
                         <ul>
                             <li class="hobbies__img">
                                 <img src="assets\headphones_icon.png" alt="" />
@@ -213,7 +218,7 @@
                         </ul>
                     </div>
 
-                    <div class="hobbies__box">
+                    <div class="hobbies__box" data-aos="fade-up">
                         <ul>
                             <li class="hobbies__img">
                                 <img src="assets\tv_icon.png" alt="" />
@@ -222,7 +227,7 @@
                         </ul>
                     </div>
 
-                    <div class="hobbies__box">
+                    <div class="hobbies__box" data-aos="fade-up">
                         <ul>
                             <li class="hobbies__img">
                                 <img src="assets\forkspoon_icon.png" alt="" />
@@ -231,7 +236,7 @@
                         </ul>
                     </div>
 
-                    <div class="hobbies__box">
+                    <div class="hobbies__box" data-aos="fade-up">
                         <ul>
                             <li class="hobbies__img">
                                 <img src="assets\camera_icon.png" alt="" />
@@ -246,7 +251,7 @@
             <section class="academic" id="formacion">
                 <h2 class="academic__title">Formación académica</h2>
                 <div class="academic__courses">
-                    <div class="academic__courses__box">
+                    <div class="academic__courses__box" data-aos="zoom-in">
                         <ul class="academic__courses__list">
                             <!-- Pon el logotipo de la institución de formación -->
                             <li class="academic__courses__item__img">
@@ -260,7 +265,7 @@
                             </li>
                         </ul>
                     </div>
-                    <div class="academic__courses__box">
+                    <div class="academic__courses__box" data-aos="zoom-in">
                         <ul class="academic__courses__list">
                             <!--Pon el logotipo de la institución de formación -->
                             <li class="academic__courses__item__img">
@@ -274,7 +279,7 @@
                             </li>
                         </ul>
                     </div>
-                    <div class="academic__courses__box">
+                    <div class="academic__courses__box" data-aos="zoom-in">
                         <ul class="academic__courses__list">
                             <!-- Pon el logotipo de la institución de formación -->
                             <li class="academic__courses__item__img">
@@ -297,7 +302,9 @@
                 </h2>
                 <div class="experience__box" id="xp1">
                     <!-- Pon el logotipo/captura de pantalla de tu proyecto -->
-                    <img class="experience__img" src="assets\decod_print.png" />
+                    <img class="experience__img" src="assets\decod_print.png" data-aos="fade-right"
+                    
+                    />
                     <div class="experience__info">
                         <h2 class="experience__title">Encriptador de texto</h2>
                         <h3 class="experience__text">
@@ -349,7 +356,7 @@
                             >
                         </div>
                     </div>
-                    <img class="experience__img" src="assets\decod_print.png" />
+                    <img class="experience__img" src="assets\decod_print.png" data-aos="fade-left"/>
                 </div>
             </section>
             <!-- Sección de Contacto -->
@@ -359,7 +366,7 @@
                         <img
                             class="formcontacto__img"
                             src="assets\contact_image.png"
-                        />
+                            data-aos="flip-left"/>
                     </div>
                     <div class="formcontacto__text">
                         <h2 class="formcontacto__title">Contacto</h2>
@@ -383,7 +390,9 @@
                                 data-tipo="nombre"
                                 required
                             />
-                            <span class="span--disable" id="span__Name">debes ingresar un nombre</span>
+                            <span class="span--disable" id="span__Name"
+                                >debes ingresar un nombre</span
+                            >
                             <label class="formcontacto__label" for="email"
                                 >email</label
                             >
@@ -396,7 +405,9 @@
                                 data-tipo="email"
                                 required
                             />
-                            <span class="span--disable" id="span__Email">debes ingresar un email válido</span>
+                            <span class="span--disable" id="span__Email"
+                                >debes ingresar un email válido</span
+                            >
                             <label class="formcontacto__label" for="asunto"
                                 >asunto</label
                             >
@@ -409,7 +420,9 @@
                                 data-tipo="asunto"
                                 required
                             />
-                            <span class="span--disable" id="span__Asunto">debes ingresar un asunto válido</span>
+                            <span class="span--disable" id="span__Asunto"
+                                >debes ingresar un asunto válido</span
+                            >
                             <label class="formcontacto__label" for="mensaje"
                                 >mensaje</label
                             >
@@ -422,8 +435,14 @@
                                 maxlength="300"
                                 required
                             ></textarea>
-                            <span class="span--disable" id="span__TextArea">debes ingresar un comentario</span>
-                            <button type="submit" class="formcontacto__boton">
+                            <span class="span--disable" id="span__TextArea"
+                                >debes ingresar un comentario</span
+                            >
+                            <button
+                                type="submit"
+                                class="formcontacto__boton"
+                                id="botonEnviar"
+                            >
                                 Enviar mensaje
                             </button>
                         </form>
@@ -440,5 +459,12 @@
         </div>
         <!-- Script del documento JavaScript -->
         <script src="validacion.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+            AOS.init({
+                duration: 1000,
+            });
+        </script>
     </body>
 </html>
