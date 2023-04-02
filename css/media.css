@@ -71,7 +71,7 @@
     }
     /*Formación Académica*/
     .academic {
-        margin: 0px 32px 16px 32px;
+        padding: 0px 32px 16px 32px;
     }
     .academic__title {
         font-size: 22px;
@@ -169,7 +169,7 @@
 }
 
 /*Mobile*/
-@media (min-width: 360px) and (max-width:767px) {
+@media (min-width: 360px) and (max-width: 767px) {
     /*Menu*/
     .menu {
         margin: 18.5px 16px;
@@ -213,7 +213,7 @@
     }
     /*About*/
     .about__container {
-        margin: 16px;
+        margin: 16px 16px;
     }
     .about__title {
         font-size: 22px;
@@ -259,7 +259,7 @@
     }
     /*Formación Académica*/
     .academic {
-        margin: 16px 0px;
+        padding: 16px 0px;
     }
     .academic__title {
         font-size: 22px;
@@ -291,10 +291,11 @@
     }
     /*Experiencia Profesional*/
     .experience {
-        margin: 0px 32px;
+        margin: 32px;
     }
     .experience__box {
         flex-direction: column;
+        width: 296px;
     }
     .experience__img {
         width: 296px;

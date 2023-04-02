@@ -370,7 +370,7 @@
                             Complete el siguiente formulario y me pondré en
                             contacto con usted lo antes posible.
                         </h3>
-                        <form class="formcontacto__form" name="form">
+                        <form class="formcontacto__form" name="form" id="fc">
                             <label class="formcontacto__label" for="nombre"
                                 >nombre</label
                             >
@@ -379,16 +379,24 @@
                                 type="text"
                                 name="nombre"
                                 placeholder=""
+                                maxlength="50"
+                                data-tipo="nombre"
+                                required
                             />
+                            <span class="span--disable" id="span__Name">debes ingresar un nombre</span>
                             <label class="formcontacto__label" for="email"
                                 >email</label
                             >
                             <input
                                 class="formcontacto__input"
+                                id="fc__email"
                                 type="email"
                                 name="email"
                                 placeholder=""
+                                data-tipo="email"
+                                required
                             />
+                            <span class="span--disable" id="span__Email">debes ingresar un email válido</span>
                             <label class="formcontacto__label" for="asunto"
                                 >asunto</label
                             >
@@ -397,18 +405,24 @@
                                 type="text"
                                 name="asunto"
                                 placeholder=""
+                                maxlength="50"
+                                data-tipo="asunto"
+                                required
                             />
+                            <span class="span--disable" id="span__Asunto">debes ingresar un asunto válido</span>
                             <label class="formcontacto__label" for="mensaje"
                                 >mensaje</label
                             >
                             <textarea
                                 class="formcontacto__textarea"
-                                rows="5"
-                                cols="40"
-                                id="mensagem"
+                                id="mensaje"
                                 name="mensaje"
                                 placeholder=""
+                                data-tipo="textarea"
+                                maxlength="300"
+                                required
                             ></textarea>
+                            <span class="span--disable" id="span__TextArea">debes ingresar un comentario</span>
                             <button type="submit" class="formcontacto__boton">
                                 Enviar mensaje
                             </button>
