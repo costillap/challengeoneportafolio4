@@ -82,6 +82,7 @@
     color: var(--color-texto-blanco);
     background-color: var(--color-fondo-azul);
     border: none;
+    border-radius: 10px;
 }
 .span--disable{
     display: none;
